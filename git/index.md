@@ -44,6 +44,11 @@ ssh-keygen -t rsa -C “ex@mail.com”
 輸入cat ~/.ssh/id_rsa.pub 
 
 把裡面的SSH Keys貼到GitLab Add an SSH Key上
+
+設定遠端ssh快速登入
+vim authorized_keys 把本地(自己)電腦的ssh key放到authorized_keys裡面
+cat authorized_keys
+
 ```
 
 # Git heroku
