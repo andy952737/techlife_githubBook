@@ -1,0 +1,22 @@
+#Profile {
+
+    /* 這裡就是撰寫設計 你的網頁 畫面的css */
+    .contact {
+        text-align: center;
+    }   
+ 
+} 
+
+@media only screen and (min-width: 375px) and (max-width: 667px){
+
+    /* 這裡就是撰寫設計 你的網頁 畫面的RWD 手機、平板、等各種尺寸css */
+    #Profile {
+            
+        .contact {
+            text-align: center;
+            float: left;
+        }
+    
+    }
+
+}
