@@ -7,13 +7,28 @@
 brew install git
 ``` 
 
+# 新增或初始
+> https://gitbook.tw/chapters/using-git/init-repository.html
+```
+//輸入完git init 後會出現git資料夾
+.git
+
+git repository
+
+
+```
+
 # git指令
+> https://backlog.com/git-tutorial/tw/reference/config.html
 ```
 git branch
 git branch {建立分支}
 git branch -d {分支名稱}
 git checkout {看要切換哪個分支}
 P.s. 預設最大是 master
+
+//合併分支
+git merge
 
 git remote -v
 git remote remove origin 
