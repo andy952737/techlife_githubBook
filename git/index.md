@@ -14,7 +14,11 @@ brew install git
 .git
 
 git repository
-
+ 
+//更換遠端git資源庫，使用 git remote set-url
+git remote -v 
+git remote set-url origin https://github.com/USERNAME/OTHERREPOSITORY.git
+git remote set-url origin git@github.com:USERNAME/OTHERREPOSITORY.git
 
 ```
 
