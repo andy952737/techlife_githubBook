@@ -23,6 +23,7 @@ rake db:data:dump
 rake db:schema:load
 rake db:data:load
  
+RAILS_ENV=production rake db:create DISABLE_DATABASE_ENVIRONMENT_CHECK=1
 RAILS_ENV={production} bundle install
 rails s -e {production}
 
