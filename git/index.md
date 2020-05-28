@@ -67,6 +67,9 @@ ssh-keygen -t rsa -C “ex@mail.com”
 設定遠端ssh快速登入
 vim authorized_keys 把本地(自己)電腦的ssh key放到authorized_keys裡面
 cat authorized_keys
+ 
+#補充:
+https://dotblogs.com.tw/Echo/2017/06/28/Linux_AuthorizedKeys_Setting
 
 ```
 
