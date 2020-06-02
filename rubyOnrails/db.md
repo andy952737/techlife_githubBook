@@ -58,6 +58,9 @@ brew install mysql
 //Linux ubuntu
 sudo apt install mysql-server
 
+//如果沒有 mysql.database請輸入這個
+mysqld_safe --skip-grant-tables 
+
 sudo service mysql start
 sudo service mysql restart
 sudo service mysql stop

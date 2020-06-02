@@ -90,5 +90,12 @@ gem 'capistrano-rvm'
 set :rails_env, "使用者"  
 set :rvm_type, :username
 set :rvm_ruby_version, '版本' 
-``` 
+
+Bug 
+deploy:assets:precompile
+...
+SystemStackError: stack level too deep
+
+```  
+<https://itranslater.com/qa/details/2118101694134354944>
 

@@ -13,6 +13,16 @@ gem list
 gem install rails -v x.x.x.x
 ```
 
+# install ruby版本狀態 - 進階 
+> 2020/6/2
+``` 
+rvm implode
+\curl -sSL https://get.rvm.io | bash
+rvm pkg install openssl
+rvm install 2.3.1 --with-openssl-dir=$HOME/.rvm/usr
+```
+<https://github.com/rvm/rvm/issues/4607> 
+
 # Rails Code
 ```
 rake secret
@@ -76,6 +86,15 @@ rvm -v
 rvm list
 rvm list known
 rvm x.x.x —default  
+
+//優化rails c
+gem 'pry', '~> 0.12.2'
+gem 'pry-byebug', '~> 3.7'
+
+//mysql版本問題 - 進階
+gem uninstall mysql2 移除
+gem install mysql2 -v 0.3.18 
+
 
 ```
 
