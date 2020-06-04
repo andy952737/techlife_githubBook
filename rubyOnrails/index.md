@@ -23,7 +23,8 @@ rvm install 2.3.1 --with-openssl-dir=$HOME/.rvm/usr
 ```
 <https://github.com/rvm/rvm/issues/4607> 
 
-# Rails Code 
+# Rails Code  
+> http://myohmy10420-blog.logdown.com/?page=2
 ```
 spring stop 
 
