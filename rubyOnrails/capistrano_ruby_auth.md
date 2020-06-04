@@ -8,9 +8,13 @@ ssh-keygen -t rsa
 cat ~/.ssh/id_rsa.pub
 
 created:
-authorized_keys
+authorized_keys  
+```
 
+# use Capistrano SSH-Key 處理
+```	
 ssh-add -D
+ssh-add -K ~/.ssh/id_rsa
 ```
 
 # Cloud Service 連接 ssh-key
@@ -28,11 +32,11 @@ vim authorized_keys
 ```
 gem 'ed25519', '~> 1.2' 
 gem 'bcrypt_pbkdf', '~> 1'
-gem 'capistrano'
+gem 'capistrano' 
 gem 'capistrano-rails', :group => :development
-gem 'capistrano-bundler' 
-  
-# touch tmp/restart.txt
+gem 'capistrano-passenger', :group => :development
+gem 'capistrano-bundler'  
+gem 'capistrano-rvm' 
 gem 'capistrano-passenger', :group => :development
 ```
 
@@ -54,6 +58,7 @@ require "capistrano/deploy"
 require "capistrano/rails"
 require "capistrano/rails/migrations"
 require "capistrano/scm/git"
+require 'capistrano/rvm' 
 install_plugin Capistrano::SCM::Git
 Dir.glob("lib/capistrano/tasks/*.rake").each { |r| import r }
 

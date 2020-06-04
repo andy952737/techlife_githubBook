@@ -13,7 +13,7 @@ gem list
 gem install rails -v x.x.x.x
 ```
 
-# install ruby版本狀態 - 進階 
+# install ruby版本狀態 - 進階狀況 
 > 2020/6/2
 ``` 
 rvm implode
@@ -23,8 +23,10 @@ rvm install 2.3.1 --with-openssl-dir=$HOME/.rvm/usr
 ```
 <https://github.com/rvm/rvm/issues/4607> 
 
-# Rails Code
+# Rails Code 
 ```
+spring stop 
+
 rake secret
 rails secret
 rake assets:precompile
@@ -32,12 +34,14 @@ rake assets:precompile
 rake db:data:dump
 rake db:schema:load
 rake db:data:load
- 
+  
 RAILS_ENV=production rake db:create DISABLE_DATABASE_ENVIRONMENT_CHECK=1
 RAILS_ENV={production} bundle install
-rails s -e {production}
-
-rails g migration add_name_to_admin_user:type
+rails c -e {production}  
+rails s -e {production} 
+ 
+rails g model admin name:string
+rails g migration add_{name}_to_{admins}_{name}:type 
 ```
 
 # 常用好用Gem
@@ -55,10 +59,15 @@ end
 
 gem 'whenever', require: false
 wheneverize .
-whenever - i
+whenever - i 
 whenever - w
 crontab -l 
+ 
+//處理mysql2 問題 
+gem uninstall mysql2 移除
+gem install mysql2 -v 0.3.18 
 
+gem install rmagick 
 gem ‘rmagick'  
 include CarrierWave::RMagick 
 version :thumb do
@@ -66,7 +75,7 @@ version :thumb do
 end
 bytesToMegabytes = (bytes) ->
   return Math.round((b/1024/1024) * 100) / 100
-
+ 
 bundle install
 bundle update
 rails c
@@ -86,16 +95,15 @@ rvm -v
 rvm list
 rvm list known
 rvm x.x.x —default  
-
+ 
 //優化rails c
+gem 'awesome_rails_console' 
 gem 'pry', '~> 0.12.2'
 gem 'pry-byebug', '~> 3.7'
 
 //mysql版本問題 - 進階
 gem uninstall mysql2 移除
-gem install mysql2 -v 0.3.18 
-
-
+gem install mysql2 -v 0.3.18  
 ```
 
 # Rails raise Error處理機制
