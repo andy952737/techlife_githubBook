@@ -26,7 +26,7 @@ def call
   client.messages.create({
   from:   Rails.application.secrets.twilio_phone_number,
   #to: 'YOUR PERSONAL PHONE NUMBER GOES HERE',
-  to: '+886966066144',
+  to: 'mobile_nmber',
     body: message
   })
   end

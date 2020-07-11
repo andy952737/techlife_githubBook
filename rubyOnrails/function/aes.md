@@ -7,9 +7,9 @@ def base64(data)
     Base64.encode64(data).chomp
 end
 
-#商家提供Key Iv
-@hash_key = '3Tvaiz02lfprF2Z47eVl0dxS2zGXtZBH'
-@hash_iv = 'CR8jRRZk8MwVEnlP'      
+#商家提供Key Iv 
+@hash_key = 'key金鑰'
+@hash_iv = 'iv金鑰'      
  
 
 #交易資料 
@@ -20,8 +20,8 @@ end
 @Version = '1.5' 
 
 #AES加密
-key = 'baRudSWouiTVfu0jwXfYDg=='
-iv  = 'abcdefgh3762quck'
+key = 'key金鑰'
+iv  = 'iv金鑰'
 cipher = OpenSSL::Cipher.new 'aes-256-cbc'
 cipher.encrypt
 cipher.key = cipher.random_key 
