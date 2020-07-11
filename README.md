@@ -12,8 +12,8 @@
 
 * RubyOnRails     
     * [rubyOnrails](rubyOnrails/index.md)
-    * [capistrano_ruby_auth](rubyOnrails/capistrano_ruby_auth.md)
-    * [model](rubyOnrails/model.rb)
+    * [Capistrano](rubyOnrails/capistrano_ruby_auth.md)
+    * [Model](rubyOnrails/model.rb)
     * [layout](rubyOnrails/layout.scss) 
     * [unitRspec](rubyOnrails/unitRspec/index.md)  
     * [gem](rubyOnrails/shipping/braintree.md)   
@@ -22,5 +22,5 @@
     * [Git](git/index.md)
 
 * Javascript 
-    * [Javascript](javascript/ajax.js) 
-    * [Javascript](javascript/deeplink.js)   
+    * [Ajax](javascript/ajax.js) 
+    * [Deeplink](javascript/deeplink.js)   
