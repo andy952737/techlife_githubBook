@@ -1,9 +1,12 @@
 ## CodeLove - AndyK的科技書 2020 
 ![image](code_love.png) 
-
-# 科技書版本: v1.0  
   
-# 目錄
+# 科技書目錄
+* 作者序
+* Web開發
+
+
+# 附註 - 程式技術精華區
 * service 
     * [service](service/index.md)  
     * [Linux+ROR部署](service/nginx_rails.md) 
