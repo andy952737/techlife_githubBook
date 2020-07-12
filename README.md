@@ -2,7 +2,7 @@
 ![image](code_love.png) 
   
 # 科技書目錄
-* 作者序[about](about.md) 
+* 作者序[AndyK](about.md) 
 
 * Web開發的目的
 	* [行銷推廣]
@@ -24,7 +24,8 @@
     * [layout](rubyOnrails/layout.scss) 
     * [unitRspec](rubyOnrails/unitRspec/index.md)  
     * [gem](rubyOnrails/shipping/braintree.md)   
-    * [MySQL](rubyOnrails/db.rb) 
+    * [MySQL](rubyOnrails/db.rb)   
+    * [Callback](rubyOnrails/callback.rb) 
  
 * Git  
     * [Git](git/index.md)
