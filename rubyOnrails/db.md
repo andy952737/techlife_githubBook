@@ -84,6 +84,14 @@ mysql -h [localhost] -u [username] -p [mydatabase] < {database-dump}.sql
 mysql -u root -p demo_db < /home/user/db_data/demo_db.sql
 ```
 
+# ubuntu 18.04安裝需參考
+> sudo vim /etc/mysql/debian.cnf
+<https://blog.csdn.net/qq_30505673/article/details/82495437>
+``` 
+root => debian-sys-maint
+
+```
+
 # MySQL Join on PHP demo
 ```
 /* 練習 MYSQL JOIN */
