@@ -11,7 +11,8 @@
 	* [管理資料] 
 
 # 整合AWS cloud 雲端IDE
-
+* Ruby
+* MySQL
 
 # 附註 - 程式技術精華區
 * service 
