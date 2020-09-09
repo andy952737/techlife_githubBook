@@ -10,6 +10,11 @@
 	* [服務顧客]
 	* [管理資料] 
 
+# Ruby精華重點
+* Method
+* Model
+* RubyCode
+
 # 整合AWS cloud 雲端IDE
 * Ruby
 * MySQL
