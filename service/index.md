@@ -10,6 +10,13 @@
 * aws_rails  
     * [aws_rails](aws_rails.md) 
 
+# Mac brew installs
+```
+brew install nginx
+nginx -s stop
+sudo brew services start nginx
+```
+
 # Category 
 Number | Title | Remark
 -------|-------|------- 
