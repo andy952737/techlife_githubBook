@@ -51,26 +51,23 @@ git push -u origin {定義分支} 如果不打 -u 之後，則是以現在的分
 ```
 git config --global user.email "ex@mail.com"   
 git remote set-url origin  https://github.com/username/project.git
-```
+``` 
 
-# GitLab
+## github-gitlab-sshlogin
+> 把裡面的SSH Keys貼到Github or GitLab Add an SSH Key上
+<https://dotblogs.com.tw/Echo/2017/06/28/Linux_AuthorizedKeys_Setting>
 ```
-根目錄ssh設定
+cd ~
 ls -al ~/.ssh
 ssh-keygen -t rsa -C “ex@mail.com”
+cat ~/.ssh/id_rsa.pub 
+```
 
-#取得SSH Keys
-輸入cat ~/.ssh/id_rsa.pub 
-
-把裡面的SSH Keys貼到GitLab Add an SSH Key上
-
-設定遠端ssh快速登入
-vim authorized_keys 把本地(自己)電腦的ssh key放到authorized_keys裡面
+## git-cloud-service-sshlogin
+> 設定遠端ssh快速登入, 把本地(自己)電腦的ssh key放到authorized_keys裡面
+```
+vim authorized_keys 
 cat authorized_keys
- 
-#補充:
-https://dotblogs.com.tw/Echo/2017/06/28/Linux_AuthorizedKeys_Setting
-
 ```
 
 # Git heroku
