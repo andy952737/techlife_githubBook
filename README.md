@@ -1,22 +1,20 @@
 ## CodeLove - AndyK的科技書 2020 
-![image](code_love.png) 
-
-# 開發指標
-* [行銷推廣]
-* [電子商務]
-* [服務顧客]
-* [管理資料] 
 
 # Ruby精華重點
 * Method
 * Model
-* RubyCode
+* ruby_Code
+* api_Design
+* rspec
 
-# 整合AWS cloud 雲端IDE
+# Cloud_Service_Web_design
 * Ruby
 * MySQL 
 
-# 附註 - 程式技術精華區
+# 程式技術精華分享區
+* Git  
+    * [Git](git/index.md)
+
 * service 
     * [service](service/index.md)  
     * [Linux+ROR部署](service/nginx_rails.md) 
@@ -34,11 +32,14 @@
     * [gem](rubyOnrails/shipping/braintree.md)   
     * [MySQL](rubyOnrails/db.rb)   
     * [Callback](rubyOnrails/callback.md) 
-    * [Service](api.rb)
- 
-* Git  
-    * [Git](git/index.md)
+    * [Service](rubyOnrails/service/api.rb)
 
 * Javascript 
     * [Ajax](javascript/ajax.js) 
     * [Deeplink](javascript/deeplink.js)   
+    * [jQuery](javascript/jquery_note.js)
+
+* Css_Scss
+    * [SCSS_rails](css/Scss_rails/demo.scss)
+
+![image](code_love.png) 
