@@ -1,14 +1,11 @@
 ## CodeLove - AndyK的科技書 2020 
 ![image](code_love.png) 
-  
-# 科技書目錄
-* 作者序[AndyK](about.md) 
 
-* 開發指標
-	* [行銷推廣]
-	* [電子商務]
-	* [服務顧客]
-	* [管理資料] 
+# 開發指標
+* [行銷推廣]
+* [電子商務]
+* [服務顧客]
+* [管理資料] 
 
 # Ruby精華重點
 * Method
@@ -28,7 +25,7 @@
     * [aws](service/aws.md)    
     * [aws_s3](service/aws/s3.md)     
 
-* RubyOnRails     
+* RubyOnRails      
     * [rubyOnrails](rubyOnrails/index.md)
     * [Capistrano](rubyOnrails/capistrano_ruby_auth.md)
     * [Model](rubyOnrails/model.rb)
@@ -37,6 +34,7 @@
     * [gem](rubyOnrails/shipping/braintree.md)   
     * [MySQL](rubyOnrails/db.rb)   
     * [Callback](rubyOnrails/callback.md) 
+    * [Service](api.rb)
  
 * Git  
     * [Git](git/index.md)
