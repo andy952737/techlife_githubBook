@@ -23,9 +23,10 @@ Linux ubuntu install
 - gem install bundler
 - apt install -y nodejs
 - sudo ln -sf /usr/bin/nodejs /usr/local/bin/node
-- curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
+- curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
 - gem install rails -v 5.1.6~
 - apt install rbenv
+- sudo apt-get install -y nodejs
 
 # Install Passenger packages & Nginx 
 - apt install -y dirmngr gnupg
