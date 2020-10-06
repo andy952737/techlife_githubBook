@@ -13,6 +13,19 @@ gem list
 gem install rails -v x.x.x.x
 ```
 
+# 開發環境的設定
+> ror+database 版本
+```
+> git 
+> sourcetree
+> rvm (2.3.3, 2.3.8, 2.5.3)
+> rails (4.2.2, 5.2.7)
+> 設定 ~.ssh
+> dropbox
+> evernote
+> line
+```
+
 # install ruby版本狀態 - 進階狀況 
 > 2020/6/2
 ``` 
