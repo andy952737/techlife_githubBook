@@ -24,6 +24,31 @@ gem install rails -v x.x.x.x
 > dropbox
 > evernote
 > line
+
+mac install ruby on rails 
+install ruby on rails & rvm
+rvm pkg install openssl  
+rvm install 2.3.1 --with-openssl-dir=$HOME/.rvm/usr 
+```
+
+# rails console技巧
+```
+reload!
+
+#新增欄位
+rails g migration add_欄位_to_tables 欄位:型態
+
+#rails 5 以上
+DISABLE_DATABASE_ENVIRONMENT_CHECK=1 
+rails db:drop
+rails db:create 
+rails db:migrare 
+rails db:seed 
+
+#use error
+Model.errors
+
+RAILS_ENV=production bundle exec rails c
 ```
 
 # install ruby版本狀態 - 進階狀況 
@@ -56,6 +81,14 @@ rails s -e {production}
  
 rails g model admin name:string
 rails g migration add_{name}_to_{admins}_{name}:type 
+
+rails清掉local app 
+spring stop 
+
+Run, 確保production環境下正常運作 
+rails c -e production 
+rails s -p 3001 
+
 ```
 
 # 常用好用Gem

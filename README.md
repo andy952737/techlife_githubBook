@@ -6,6 +6,8 @@
 * ruby_Code
 * api_Design
 * rspec
+* cache
+* cookie_session
 
 # Cloud_Service_Web_design
 * Ruby
