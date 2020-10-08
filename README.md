@@ -21,9 +21,11 @@
     * [service](service/index.md)  
     * [Linux+ROR部署](service/nginx_rails.md) 
     * [OpenSSL設定與申請](service/openssl.md)     
+    * [CDN分散式系統理論](service/cdn.md)
     * [gcp](service/gcp/sql.md)     
     * [aws](service/aws.md)    
     * [aws_s3](service/aws/s3.md)     
+    * [aws_cdn](service/aws/cdn.md)
 
 * RubyOnRails      
     * [rubyOnrails](rubyOnrails/index.md)
@@ -40,6 +42,7 @@
     * [Ajax](javascript/ajax.js) 
     * [Deeplink](javascript/deeplink.js)   
     * [jQuery](javascript/jquery_note.js)
+    * [JS基礎code](javascript/code.js)
 
 * Css_Scss
     * [SCSS_rails](css/Scss_rails/demo.scss)
