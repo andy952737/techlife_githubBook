@@ -7,7 +7,7 @@
 * api_Design
 * rspec
 * cache
-* cookie_session
+* cookie_session 
 
 # Cloud_Service_Web_design
 * Ruby
@@ -41,8 +41,8 @@
 * Javascript 
     * [Ajax](javascript/ajax.js) 
     * [Deeplink](javascript/deeplink.js)   
-    * [jQuery](javascript/jquery_note.js)
-    * [JS基礎code](javascript/code.js)
+    * [jQuery](javascript/jquery_basis.js)
+    * [JS基礎basis](javascript/javascript_basis.js)
 
 * Css_Scss
     * [SCSS_rails](css/Scss_rails/demo.scss)
