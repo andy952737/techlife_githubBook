@@ -46,7 +46,7 @@ var roomsFree = hotel.checkAvailability();
 // 	return this.name;
 // }; 
 
-//變更物件
+//變更物件 
 var hotel.name = 'Park';
 var hotel['name'] = 'Park';
 delete hotel.name;  
@@ -64,4 +64,52 @@ var shape {
 //array陣列
 var hotels = ['Quay', 'Park']
 hotel[1]; //  => Park
+
+//全域物件 string物件
+length 
+toUpperCase()
+toLowerCase()
+charAt(pos: int)
+indexOf(searchString: string, position?: int)
+lastIndexOf(searchString: string, position?: int)
+substring(start: int, end: int)
+split(separator: string, limit: int)
+trim()
+replace(searchValue: string, replaceValue: string)
+
+//建立亂數
+Math.PI;
+Math.round(x: number)
+Math.sqrt(x: number)
+Math.ceil(x: number)
+Math.floor(x: number)
+Math.random()
+
+//時間
+var today new Date();
+getDate()
+getDay()
+getFullYear()
+getHours()
+getMilliseconds()
+getMinutes()
+getMonth()
+getSeconds()
+getTime()
+getTimezoneOffset()
+toDateString()
+toString(radix?: int)
+
+//決策與迴圈
+
+
+
+
+
+
+
+
+
+
+
 
