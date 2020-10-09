@@ -101,9 +101,76 @@ toDateString()
 toString(radix?: int)
 
 //決策與迴圈
+if (score > 50) {
+	document.write('You passed!');
+} else if (score > 100) {
+	document.write('100!');
+} else {
+	document.write('Try again...');
+}
 
+var msg;
+var level = 2;
+switch (leve) {
+	case 1:
+		msg = 'Good luck on the first test';
+		break;
+	default:
+		// statements_def
+		break;
+}
 
+// 初始化, 條件, 更新
+for (var i = Things.length - 1; i >= 0; i--) {
+	Things[i]
+} 
 
+var i = 1;
+var msg = '';
+do{
+	msg 
+	i++;
+} while (i < 1);
+document.getElementById('answer').innerHTML = msg;
+
+while (i < 11) {
+	// statement
+	i++;
+}
+document.getElementById('answer').innerHTML = msg;
+
+//存取元件
+getElementById('id');
+getElementsByTagName('li');
+getElementsByClassName('class');
+querySelector('li.hot');
+querySelectorAll('li.hot');
+
+//建立及變更屬性
+var firstItem = document.getElementById('one');
+firstItem.className = 'complete';
+
+var fourthItem = document.getElementsByTagName('li').item(3);
+fourthItem.setAttribute('class', 'cool');
+
+//移除屬性
+var firstItem = document.getElementById('one');
+if (firstItem.hasAttribute('class')){
+	firstItem.removeAttribute('class');
+}
+
+//XSS標籤元件的字元跳脫與管控
+//Javascript
+//可使用 
+//textContent 或 innerText
+//不可使用
+//innerHTML
+
+//jQuery
+//可使用
+//.text();
+//不可使用
+//.html();
 
 
 

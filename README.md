@@ -34,7 +34,7 @@
     * [layout](rubyOnrails/layout.scss) 
     * [unitRspec](rubyOnrails/unitRspec/index.md)  
     * [gem](rubyOnrails/shipping/braintree.md)   
-    * [MySQL](rubyOnrails/db.rb)   
+    * [MySQL](rubyOnrails/db.rb)    
     * [Callback](rubyOnrails/callback.md) 
     * [Service](rubyOnrails/service/api.rb)
 
@@ -43,6 +43,7 @@
     * [Deeplink](javascript/deeplink.js)   
     * [jQuery](javascript/jquery_basis.js)
     * [JS基礎basis](javascript/javascript_basis.js)
+    * [JS監聽事件技巧](javascript/onevent_voice.js)
 
 * Css_Scss
     * [SCSS_rails](css/Scss_rails/demo.scss)

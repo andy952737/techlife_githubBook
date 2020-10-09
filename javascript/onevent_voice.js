@@ -1,4 +1,4 @@
-
+/* Ex. Voice */
 function Voice(){
   var _this = this;
   var handlers = {};
@@ -22,3 +22,6 @@ function parent(){
     })
     v.startCall()
 }
+
+/* 利用事件監聽器 */
+// code...
