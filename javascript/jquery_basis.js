@@ -1,5 +1,8 @@
 $(function(){
 	
+	//選擇 not -> class
+	$("li.not").addClass('complete');
+
 	//each, html: li 
 	$('li').each(function(){
 		var ids = this.id;
@@ -25,10 +28,14 @@ $(function(){
 		$(this).fadeOut(700);
 	});
 
+	//程式碼準備就緒
+	$(document).ready(function(){
+		//code
+	});
+	$(function(){
+		//code
+	});
+
+
 });  
-
-//判斷
-
-
-//迴圈
 
