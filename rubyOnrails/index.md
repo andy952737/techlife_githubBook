@@ -18,8 +18,8 @@ gem install rails -v x.x.x.x
 ```
 > git 
 > sourcetree
-> rvm (2.3.3, 2.3.8, 2.5.3)
-> rails (4.2.2, 5.2.7)
+> rvm (2.3.1, 2.3.3, 2.3.8, 2.5.3, 2.6.5)
+> rails (4.2.2, 5.2.7,  6.0.2.2) 
 > 設定 ~.ssh
 > dropbox
 > evernote
