@@ -17,3 +17,12 @@ system "rm -rf"
 system "mkdir -R"
 FileUtils.rm_rf(tmp_path) if File.directory?(tmp_path)
 FileUtils.mkdir_p(tmp_path) 
+
+io = File.new("ruby.rb", "w")
+io = File.open("/home/work/ruby.rb")
+io.close
+io.closed? #檢查是否關閉
+#若後面沒有 block (結束會自動關閉) 必須要再加上，io.close，關閉檔案，否則會出錯
+
+# https://mgleon08.github.io/blog/2016/01/31/ruby-file-dir/
+
