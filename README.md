@@ -49,6 +49,7 @@
     * [JS監聽事件技巧](javascript/onevent_voice.js)
 
 * Css_Scss
-    * [SCSS_rails](css/Scss_rails/demo.scss)
+    * [SCSS_rails_navbar_box](css/Scss_rails/navbar_box.scss)
+    * [SCSS_rails_obj_box](css/Scss_rails/obj_box.scss)
 
 ![image](code_love.png) 
