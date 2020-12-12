@@ -27,3 +27,15 @@ tail -f {production.log}
 建立openssl憑證:
 sudo certbot --nginx -d DNS
 ```
+
+#遠端傳送檔案 ssh scp
+```
+我知道 傳送檔案： 以下指令：
+
+從本地傳到遠端
+scp {檔案路徑A}   {root@ipaddr:路徑檔案B}
+
+從遠端傳到本地
+scp {root@ipaddr:檔案路徑A}   {檔案路徑}
+
+```
