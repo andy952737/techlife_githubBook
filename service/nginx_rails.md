@@ -27,8 +27,8 @@ Linux ubuntu install
 - gem install rails -v 5.1.6~
 - apt install rbenv
 - sudo apt-get install -y nodejs
-
-# Install Passenger packages & Nginx 
+  
+# Install Passenger packages & Nginx (for 18.04 linux ubuntu)
 - apt install -y dirmngr gnupg
 - apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 561F9B9CAC40B2F7
 - sudo sh -c 'echo deb https://oss-binaries.phusionpassenger.com/apt/passenger bionic main > /etc/apt/sources.list.d/passenger.list'
@@ -45,6 +45,9 @@ Linux ubuntu install
 - apt install nginx-light
 - passenger-config validate-install 
 - apt install nginx-core 
+
+# for 16.04 linux ubuntu nginx
+<https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-16-04>
 
 # Nginx modules-enabled code:
 ```
