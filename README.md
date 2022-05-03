@@ -56,9 +56,8 @@
     * [jQuery](javascript/jquery_basis.js)
     * [JS基礎basis](javascript/javascript_basis.js)
     * [JS監聽事件技巧](javascript/onevent_voice.js)
-
-* Css_Scss
-    * [SCSS_rails_navbar_box](css/Scss_rails/navbar_box.scss)
-    * [SCSS_rails_obj_box](css/Scss_rails/obj_box.scss)
+ 
+* Css_Scss_for_rails
+    * [SCSS_for_rails_index](css/scss_for_rails/index.scss)
 
 ![image](code_love.png) 

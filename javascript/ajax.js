@@ -1,7 +1,5 @@
 $(document).ready(function(){
-
-
-
+    
         //$("#cc_1").on('click',function(){
         /* value */ 
         var product_id = $(this).data('product_id');  

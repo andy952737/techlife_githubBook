@@ -1,6 +1,4 @@
-# Crontab排程
-
-Linux排程設定:  
+# Crontab排程 Linux排程設定
 
 ```markdown
 #查看
@@ -20,7 +18,7 @@ crontab -e
 crontab     0 3 1 * * /root/backupDB.sh
 ```
 
-ex. 
+# Ex. 
 
 ```markdown
 
