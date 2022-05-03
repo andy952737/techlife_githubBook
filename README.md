@@ -1,6 +1,6 @@
-## CodeLove - AndyK的科技書 2020 
+## Andy的Rails科技書 2022  
 
-# Ruby精華重點
+# Ruby精華重點 
 * Method
 * Model
 * ruby_Code
