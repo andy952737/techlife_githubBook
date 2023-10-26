@@ -1,4 +1,4 @@
-# mysql 
+# MySQL  
 
 
 # mac use Brew install

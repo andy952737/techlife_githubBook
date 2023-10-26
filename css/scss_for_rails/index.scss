@@ -1,3 +1,8 @@
+/* Ex. import */
+@import "font-awesome";
+@import "mains/**/*"; 
+@import "backend/**/*";
+
 #index {
 
 	.index {
@@ -5,3 +10,6 @@
 	}
 
 }
+
+/* RWD design */
+@media only screen and (min-width: 320px) and (max-width: 900px){}
