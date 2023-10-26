@@ -1,4 +1,4 @@
-## Andy的Rails科技書 2022  
+## Andy的Rails科技書 2022-2023  
 
 # Ruby精華重點 
 * Method
