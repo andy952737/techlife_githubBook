@@ -12,6 +12,8 @@
 # Cloud_Service_Web_design
 * Ruby
 * MySQL 
+* PostgreSQL
+* Redis
 
 # M1 mac book專區(2021)
 * 開發環境
